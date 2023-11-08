@@ -1,0 +1,17 @@
+{
+  "name": "sqlite-worker-esm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "w.js",
+  "scripts": {
+    "dev": "vite",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@sqlite.org/sqlite-wasm": "^3.44.0-build1",
+    "vite": "^4.5.0"
+  }
+}
