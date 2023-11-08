@@ -1,4 +1,5 @@
-import { sqlite3Worker1Promiser } from "./esm-promiser.mjs";
+// this attaches sqlite3Worker1Promiser to window
+import {} from '../node_modules/@sqlite.org/sqlite-wasm/sqlite-wasm/jswasm/sqlite3-worker1-promiser-bundler-friendly.js'
 import SQLiteWorker from './worker.js?worker'
 
 const sqlite3 = sqlite3Worker1Promiser({
