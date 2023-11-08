@@ -1,4 +1,6 @@
-import { sqlite3InitModule } from '@sqlite.org/sqlite-wasm'
-const sqlite3 = sqlite3InitModule()
+import { default as sqlite3InitModule } from "@sqlite.org/sqlite-wasm";
 
-sqlite3.initWorker1API()
+const sqlite3 = await sqlite3InitModule();
+sqlite3.initWorker1API();
+
+export default {};
